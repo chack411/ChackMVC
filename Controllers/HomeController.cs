@@ -6,7 +6,7 @@ namespace MvcSample.Web
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "Awesome Site - 11/29";
+            ViewBag.Title = "Awesome Site";
 
             return View();
         }
