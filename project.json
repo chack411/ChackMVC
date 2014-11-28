@@ -1,0 +1,20 @@
+{
+    "dependencies": {
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta1",
+        "Microsoft.AspNet.Hosting": "1.0.0-beta1",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta1",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta1",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta1",
+        //"Nowin.vNext": "1.0.0-*",
+        "Kestrel": "1.0.0-*"
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5001",
+        "nowin": "Microsoft.AspNet.Hosting --server Nowin.vNext",
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5004"
+    },
+    "frameworks": { 
+         "aspnet50": { }, 
+         "aspnetcore50": { } 
+    }
+}
