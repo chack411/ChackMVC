@@ -103,12 +103,12 @@ h5, h6 {
     }
 
     .featured + .main-content {
-        background: url("/content/heroAccent-g.png") no-repeat;
+        background: url("/Content/heroAccent-g.png") no-repeat;
     }
 
 .wmm {
     padding-top: 10px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 footer {
